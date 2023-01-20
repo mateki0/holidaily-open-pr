@@ -27,7 +27,7 @@ jobs:
       - name: Commit version bump
         run: |
           git config --global user.name 'mateki0'
-          git config --global user.email 'mateki0@users.noreply.github.com'
+          git config --global user.email 'mateki0@interia.pl'
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v4
         with:
